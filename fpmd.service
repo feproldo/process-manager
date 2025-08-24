@@ -1,0 +1,13 @@
+[Unit]
+Description=Feproldos Process Manager Daemon
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/fpmd
+Restart=on-failure
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+
