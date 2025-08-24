@@ -3,7 +3,6 @@ mod answer;
 mod command;
 mod commands;
 mod config;
-mod demon;
 
 const ECOSYSTEM_NAME: &str = "pm-ecosystem.toml";
 const DOCUMENTATION_URL: &str = "https://fpm.feproldo.ru/";
