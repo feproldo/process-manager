@@ -65,7 +65,7 @@ pub async fn handle_command(args: Vec<String>) {
         "restart" | "reload" => restart::exec(arguments).await,
         "status" => status::exec(arguments).await,
         "delete" => delete::exec(arguments).await,
-        "help" => {}
-        _ => {}
+        "help" => help::exec(),
+        _ => help::exec(),
     }
 }
