@@ -4,7 +4,7 @@ set -e
 PREFIX=/usr/local
 BINDIR=$PREFIX/bin
 SYSTEMD_DIR=/etc/systemd/system
-VERSION=0.0.1
+VERSION=0.0.2
 
 BASE_URL="https://github.com/feproldo/process-manager/releases/download/v$VERSION"
 
